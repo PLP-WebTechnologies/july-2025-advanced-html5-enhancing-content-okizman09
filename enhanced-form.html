@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+        📘 Assignment: Enhancing HTML5 Content & Mastering Forms
+        </title>
+    </head>
+    <body>
+        <header>
+        <h1>Okizman Worldwide Travels</h1>
+        <p>Experience your dream vacation with us</p>
+        
+        </header>
+        <nav>
+    <a href="#highlights">Highlights</a> |
+    <a href="#schedule">Schedule</a> |
+    <a href="#media">Media</a> |
+    <a href="#booking">Book Now</a>
+</nav>
+
+    <main>
+        
+        <section id="highlights">
+            <h2>Tour Highlights</h2><br>
+            <dl>
+                <dt>United States</dt>
+        <dd>Experience the vibrant cities of New York and Los Angeles, the natural beauty of the Grand Canyon, and the cultural diversity across 50 states.
+                <img src="media/US.jpg" alt="USA" width="500"><br><hr><br>
+        </dd>
+        <dt>China</dt>
+        <dd>Walk along the Great Wall, explore the Forbidden City, and enjoy the rich traditions and modern wonders of Beijing and Shanghai.
+                <img src="media/china.jpg" alt="China" width="500"><br><hr><br>
+        </dd>
+        <dt>South Africa</dt>
+        <dd>Discover Cape Town’s Table Mountain, go on a wildlife safari in Kruger National Park, and enjoy the scenic beauty of the Garden Route.
+                <img src="media/south%20africa.jpg" alt="SA" width="500"><br><hr><br>
+        </dd>
+        <dt>France</dt>
+        <dd>Stroll through romantic Paris, visit the Eiffel Tower, and enjoy the vineyards, beaches, and art treasures spread across the country.
+                <img src="media/france.jpg" alt="France" width="500"><br><hr><br>
+        </dd>
+            </dl>
+        </section>
+        
+        
+        <section id="schedule">
+            <h2>Tour Schedule</h2>
+        <table border="1">
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Duration</th>
+                <th>Start Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>United States</td>
+                <td>7 Days</td>
+                <td>2025-09-01</td>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td>10 Days</td>
+                <td>2025-09-15</td>
+            </tr>
+            <tr>
+                <td>South Africa</td>
+                <td>8 Days</td>
+                <td>2025-10-01</td>
+            </tr>
+            <tr>
+                <td>France</td>
+                <td>5 Days</td>
+                <td>2025-10-20</td>
+            </tr>
+        </tbody>
+    </table>
+        </section>
+        
+        
+        
+        <section id="media">
+            <h2>Videos</h2>
+          <iframe width="560" height="315" 
+          src="https://www.youtube.com/embed/79P4c6Q2y9Y" 
+          title="USA Travel Guide" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+          </iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/kSVUJS6z1v0" title="China Travel Guide"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/Kf7qcXr2AQU" title="China Travel Guide"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        </section>
+
+        
+        <section id="booking">
+            <h2>Book Your Tour</h2>
+            <form action="#" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="country">Select Destination:</label><br>
+        <select id="country" name="country" required>
+            <option value="">--Choose a country--</option>
+            <option value="usa">United States</option>
+            <option value="china">China</option>
+            <option value="south-africa">South Africa</option>
+            <option value="france">France</option>
+        </select><br><br>
+
+        <label for="date">Preferred Start Date:</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <button type="submit">Submit Booking</button>
+            </form>
+        </section>
+        </main>
+     <footer>
+        <p>&copy; 2025 Okizman Worldwide Travels</p>
+    </footer>
+    
+    </body>
+</html>    
